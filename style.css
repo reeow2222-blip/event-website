@@ -1,0 +1,119 @@
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   background-color: #f4f4f4;
+}
+header {
+   background-color: #2c3e50;
+   color: white;
+   padding: 15px;
+   text-align: center;
+}
+nav a {
+   color: white;
+   margin: 10px;
+   text-decoration: none;
+   font-weight: bold;
+}
+nav a:hover {
+   color: #00bcd4;
+}
+section {
+   padding: 30px;
+   text-align: center;
+}
+.card {
+   background: white;
+   margin: 15px auto;
+   padding: 15px;
+   width: 60%;
+   border-radius: 5px;
+   box-shadow: 0 0 10px gray;
+}
+button, a {
+   display: inline-block;
+   margin: 5px;
+   padding: 8px 15px;
+   background-color: #3498db;
+   color: white;
+   text-decoration: none;
+   border: none;
+   border-radius: 5px;
+}
+button:hover, a:hover {
+   background-color: #2980b9;
+}
+form {
+   background: white;
+   padding: 20px;
+   width: 40%;
+   margin: auto;
+   border-radius: 5px;
+   box-shadow: 0 0 10px gray;
+}
+input, select, textarea {
+   width: 90%;
+   padding: 8px;
+   margin: 10px 0;
+}
+table {
+   margin: auto;
+   width: 70%;
+   border-collapse: collapse;
+   background: white;
+}
+th {
+   background-color: #2c3e50;
+   color: white;
+}
+td, th {
+   padding: 10px;
+   text-align: center;
+}
+footer {
+   text-align: center;
+   background: #2c3e50;
+   color: white;
+   padding: 10px;
+   margin-top: 20px;
+}
+/* HERO SECTION */
+.hero {
+   height: 350px;
+   background: url("https://images.unsplash.com/photo-1523580494863-6f3031224c94");
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/* TEXT ON IMAGE */
+.hero-text {
+   background: rgba(0, 0, 0, 0.5);
+   padding: 30px;
+   text-align: center;
+   color: white;
+   border-radius: 10px;
+}
+.hero-text h1 {
+   font-size: 30px;
+   margin-bottom: 10px;
+}
+.hero-text p {
+   margin-bottom: 15px;
+}
+.btn {
+   background-color: #3498db;
+   padding: 10px 20px;
+   color: white;
+   text-decoration: none;
+   border-radius: 5px;
+}
+.btn:hover {
+   background-color: #2980b9;
+}
+.countdown {
+  color: #4f46e5;
+  font-weight: bold;
+  margin-top: 5px;
+}

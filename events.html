@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Events</title>
+<link rel="stylesheet" href="style.css">
+<!--<script src="script.js"></script>-->
+</head>
+<body>
+    <script src="script.js"></script>
+
+<header>
+<h1>Event Management Register</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="events.html">Events</a>
+<a href="register.html">Register</a>
+<a href="login.html">Login</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+<h2 style="text-align:center;">Events Page</h2>
+<!-- ADD EVENT BUTTON -->
+<div style="text-align:center;">
+<button onclick="showForm()">Add New Event</button>
+</div>
+<!-- ADD EVENT FORM (HIDDEN FIRST) -->
+<div id="eventForm" style="display:none; text-align:center; margin-top:20px;">
+<input type="text" id="eventName" placeholder="Event Name"><br>
+<input type="date" id="eventDate" placeholder="Event Date"><br>
+<button onclick="addEvent()">Add Event</button>
+</div>
+<!-- EVENTS LIST -->
+<div id="eventsList">
+<div class="card">
+  <h3>Tech Workshop</h3>
+  <p>Date: March 20, 2026</p>
+  <p class="countdown" data-date="2026-03-20"></p>
+</div>
+
+<div class="card">
+  <h3>Sports Day</h3>
+  <p>Date: April 5, 2026</p>
+  <p class="countdown" data-date="2026-04-05"></p>
+</div>
+</div>
+<script>
+  setInterval(updateCountdown, 1000);
+</script>
+</body>
+</html>
